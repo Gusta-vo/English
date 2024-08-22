@@ -1,7 +1,7 @@
 import speech_recognition as sr
 import pyttsx3
 import tkinter as tk
-from tkinter import messagebox
+#from tkinter import messagebox  # Importa messagebox para mostrar resultados
 
 # Configura el motor TTS
 engine = pyttsx3.init()
@@ -18,6 +18,7 @@ recognizer = sr.Recognizer()
 def listen_for_command():
     with sr.Microphone() as source:
         print("Escuchando...")
+        recognizer.adjust_for_ambient_noise(source)  # Ajusta el reconocimiento al ruido ambiental
         audio = recognizer.listen(source)
         try:
             command = recognizer.recognize_google(audio)
@@ -37,9 +38,9 @@ def start_quiz():
         speak(f"¿Cómo se dice {question}?")
         response = listen_for_command()
         if response and response.lower() == answer.lower():
-            messagebox.showinfo("Resultado", "¡Correcto!")
+            speak("¡Correcto!")
         else:
-            messagebox.showinfo("Resultado", f"Incorrecto. La respuesta correcta es {answer}.")
+            speak(f"Incorrecto. La respuesta correcta es {answer}.") 
 
 # Configura la interfaz gráfica
 def create_app():
