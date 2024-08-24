@@ -1,0 +1,50 @@
+Achieve,lograr
+Suggest,sugerir
+Develop,desarrollar
+Improve,mejorar
+Respond,responder
+Explain,explicar
+Include,incluir
+Agree,estar de acuerdo
+Prepare,preparar
+Create,crear
+Challenge,desafío
+Opportunity,oportunidad
+Experience,experiencia
+Decision,decisión
+Example,ejemplo
+Situation,situación
+Community,comunidad
+Problem,problema
+Result,resultado
+Relationship,relación
+Important,importante
+Different,diferente
+Difficult,difícil
+Successful,exitoso
+Recent,reciente
+Possible,posible
+Interesting,interesante
+Positive,positivo
+Creative,creativo
+Comfortable,cómodo
+Usually,usualmente
+Quickly,rápidamente
+Easily,fácilmente
+Clearly,claramente
+Carefully,cuidadosamente
+Particularly,particularmente
+Suddenly,de repente
+Effectively,efectivamente
+Simply,simplemente
+Frequently,frecuentemente
+Although,aunque
+However,sin embargo
+Because,porque
+Therefore,por lo tanto
+Meanwhile,mientras tanto
+In addition,además
+While,mientras
+Unless,a menos que
+Although,aunque
+As a result,como resultado
